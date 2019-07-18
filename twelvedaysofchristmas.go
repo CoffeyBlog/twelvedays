@@ -1,4 +1,4 @@
-//twelve days of christmas - using swith statement and code blocks
+//twelve days of christmas - using switch statement and code blocks
 
 package main
 
@@ -8,11 +8,11 @@ import (
 
 func main() {
 
-	for day := 1; day <= 12; day ++ { // if DAY 1 ---> is equal to - or less than 12 ---> increment days by one
+	for day := 1; day <= 12; day++ { // if DAY 1 ---> is equal to - or less than 12 ---> increment days by one
 
-	fmt.Println("On the ", day, " of Christmas, my true love gave to me ... ")
+		fmt.Println("On the ", day, " of Christmas, my true love gave to me ... ")
 
-	switch day {
+		switch day {
 		case 12:
 			fmt.Println("12 drummers drumming")
 
@@ -52,4 +52,3 @@ func main() {
 		}
 	}
 }
-
